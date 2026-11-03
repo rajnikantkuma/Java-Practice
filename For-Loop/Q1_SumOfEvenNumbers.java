@@ -1,4 +1,4 @@
-class Q1_SumOfEvenNumbers
+class SumOfEvenNumbers
 {
 	public static void main(String[]args)
 	{
