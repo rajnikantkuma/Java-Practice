@@ -17,7 +17,7 @@ class LargestDigit
 			max=rem;
 			}
 		}
-		SYstem.out.println("Maximum number is ="+max);
+		System.out.println("Maximum number is ="+max);
 		
 	}
 }
