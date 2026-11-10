@@ -6,24 +6,18 @@ class LargestDigit
 	{
 	System.out.print("Enter number=");
 	Scanner sc=new Scanner(System.in);
-	int num=sc.nextInt();//  18325  12345 10001230
-	int rem=0;int max=0;int min=0;
+	int num=sc.nextInt();
+	int rem=0;int max=0;
 	for(;num!=0;num/=10)
 		{
 		rem=num%10;
 		
-		if(rem>max)
+		if(max<rem)
 			{
 			max=rem;
 			}
 		}
-		if(max>min)
-		{
-		System.out.println(max+" is greater ="+max);
-		}
-		
-	
-
+		SYstem.out.println("Maximum number is ="+max);
 		
 	}
 }
